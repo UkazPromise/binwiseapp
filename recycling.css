@@ -1,0 +1,9 @@
+/* Add this CSS to your global stylesheet if needed */
+table {
+    pointer-events: none; /* Disable all mouse interactions */
+  }
+  
+  table td.select-text {
+    pointer-events: auto; /* Allow text selection inside table cells */
+  }
+  
